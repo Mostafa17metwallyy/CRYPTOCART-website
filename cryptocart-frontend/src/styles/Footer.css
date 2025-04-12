@@ -1,0 +1,14 @@
+.cryptocart-footer {
+  background-color: #0a0a0a;
+  color: white;
+  padding: 50px 40px 20px;
+  font-family: "Arial", sans-serif;
+}
+.footer-bottom {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 13px;
+  color: #666;
+  border-top: 1px solid #222;
+  padding-top: 15px;
+}

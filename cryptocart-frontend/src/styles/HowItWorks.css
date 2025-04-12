@@ -1,0 +1,24 @@
+.how-section {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.how-section h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.steps {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.step {
+  width: 30%;
+}
+
+.step .icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
