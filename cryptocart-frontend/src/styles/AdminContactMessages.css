@@ -1,62 +1,61 @@
 .admin-contactmessages {
-    background-color: #111;
-    color: white;
-    padding: 40px;
-    min-height: 100vh;
-  }
-  
-  .admin-contactmessages h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-    text-align: center;
-    color: #3ef4e2;
-  }
-  
-  .admin-contactmessages table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-  }
-  
-  .admin-contactmessages th,
-  .admin-contactmessages td {
-    padding: 12px;
-    text-align: left;
-    border: 1px solid #444;
-  }
-  
-  .admin-contactmessages th {
-    background-color: #222;
-    font-size: 1.2rem;
-  }
-  
-  .admin-contactmessages td {
-    font-size: 1rem;
-  }
-  
-  .admin-contactmessages tbody tr:nth-child(even) {
-    background-color: #222;
-  }
-  
-  .admin-contactmessages tbody tr:hover {
-    background-color: #333;
-  }
-  
-  .admin-contactmessages td,
-  .admin-contactmessages th {
-    color: #ccc;
-  }
-  
-  .admin-contactmessages .no-messages {
-    color: #ff3b3b;
-    text-align: center;
-    font-size: 1.2rem;
-    margin-top: 20px;
-  }
-  
-  .admin-contactmessages .loading {
-    font-size: 1.2rem;
-    color: #3ef4e2;
-    text-align: center;
-  }
-  
+  background-color: #111;
+  color: white;
+  padding: 40px;
+  min-height: 100vh;
+}
+
+.admin-contactmessages h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #3ef4e2;
+}
+
+.admin-contactmessages table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.admin-contactmessages th,
+.admin-contactmessages td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #444;
+}
+
+.admin-contactmessages th {
+  background-color: #222;
+  font-size: 1.2rem;
+}
+
+.admin-contactmessages td {
+  font-size: 1rem;
+}
+
+.admin-contactmessages tbody tr:nth-child(even) {
+  background-color: #222;
+}
+
+.admin-contactmessages tbody tr:hover {
+  background-color: #333;
+}
+
+.admin-contactmessages td,
+.admin-contactmessages th {
+  color: #ccc;
+}
+
+.admin-contactmessages .no-messages {
+  color: #ff3b3b;
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+
+.admin-contactmessages .loading {
+  font-size: 1.2rem;
+  color: #3ef4e2;
+  text-align: center;
+}
