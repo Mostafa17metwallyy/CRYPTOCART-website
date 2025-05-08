@@ -22,6 +22,8 @@ mongoose
 
 // Routes
 app.use("/api/purchase", require("./routes/purchase"));
+app.use("/api/products", require("./routes/products"));
+
 
 // Start server
 const PORT = process.env.PORT || 5000;
