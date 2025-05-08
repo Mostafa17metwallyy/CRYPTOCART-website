@@ -1,0 +1,32 @@
+.admin-orders {
+  padding: 40px;
+  color: white;
+  background-color: black;
+  min-height: 100vh;
+}
+
+.filter-section {
+  margin-bottom: 20px;
+}
+
+.filter-section select {
+  margin-left: 10px;
+  padding: 6px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th, table td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #444;
+}
+
+.chart-container {
+  max-width: 400px;
+  margin: 20px 0;
+}

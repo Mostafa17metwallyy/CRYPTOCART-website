@@ -1,45 +1,23 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import '../styles/Products.css';
 import { Link } from 'react-router-dom';
-
-const products = [
-  {
-    id: 1,
-    name: 'Modern Chair',
-    image: '/assets/laptop.png',
-    price: '0.12 ETH',
-    rating: 4.5,
-  },
-  {
-    id: 2,
-    name: 'Desk Lamp',
-    image: '/assets/laptop.png',
-    price: '0.05 ETH',
-    rating: 4.7,
-  },
-  {
-    id: 3,
-    name: 'Desk Lamp',
-    image: '/assets/laptop.png',
-    price: '0.05 ETH',
-    rating: 4.7,
-  },
-  {
-    id: 4,
-    name: 'Desk Lamp',
-    image: '/assets/laptop.png',
-    price: '0.05 ETH',
-    rating: 4.7,
-  },
-];
+import axios from 'axios';
 
 const Products = () => {
+  const [products, setProducts] = useState([]);
+
+  useEffect(() => {
+    axios.get("http://localhost:5000/api/products")
+      .then((res) => setProducts(res.data))
+      .catch((err) => console.error(err));
+  }, []);
+
   return (
     <div className="products-page">
       <h2>Our Products</h2>
       <div className="product-grid">
         {products.map((product) => (
-          <Link to={`/product/${product.id}`} className="product-card" key={product.id}>
+          <Link to={`/product/${product._id}`} className="product-card" key={product._id}>
             <img src={product.image} alt={product.name} />
             <h3>{product.name}</h3>
             <p>{product.price}</p>

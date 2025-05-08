@@ -15,6 +15,7 @@ import Cart from './pages/Cart';
 import Checkout from './pages/Checkout';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import AdminOrders from './pages/AdminOrders'; // Admin route
 
 // Styles
 import './styles/App.css';
@@ -26,7 +27,7 @@ function App() {
         {/* Navigation */}
         <Navbar />
 
-        {/* Main content wrapper to push footer down */}
+        {/* Main content */}
         <main>
           <Routes>
             <Route path="/" element={<Home />} />
@@ -36,13 +37,14 @@ function App() {
             <Route path="/checkout" element={<Checkout />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/admin/orders" element={<AdminOrders />} /> {/* Admin orders route */}
           </Routes>
         </main>
 
-        {/* Footer always at bottom */}
+        {/* Footer */}
         <Footer />
 
-        {/* Toasts */}
+        {/* Toast messages */}
         <ToastContainer position="bottom-right" autoClose={2000} />
       </div>
     </Router>
