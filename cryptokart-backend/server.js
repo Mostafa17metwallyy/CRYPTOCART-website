@@ -23,6 +23,7 @@ mongoose
 // Routes
 app.use("/api/purchase", require("./routes/purchase"));
 app.use("/api/products", require("./routes/products"));
+app.use("/api/contact", require("./routes/contact"));
 
 
 // Start server
