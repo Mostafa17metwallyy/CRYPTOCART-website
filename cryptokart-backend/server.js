@@ -24,6 +24,7 @@ mongoose
 app.use("/api/purchase", require("./routes/purchase"));
 app.use("/api/products", require("./routes/products"));
 app.use("/api/contact", require("./routes/contact"));
+app.use("/api/admin/contactmessages", require("./routes/admin/contactmessages"));
 
 
 // Start server

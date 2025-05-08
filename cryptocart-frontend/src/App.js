@@ -16,6 +16,7 @@ import Checkout from './pages/Checkout';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import AdminOrders from './pages/AdminOrders'; // Admin route
+import AdminContactMessages from './pages/AdminContactMessages';
 
 // Styles
 import './styles/App.css';
@@ -38,6 +39,7 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/admin/orders" element={<AdminOrders />} /> {/* Admin orders route */}
+            <Route path="/admin/contactmessages" element={<AdminContactMessages />} />
           </Routes>
         </main>
 
